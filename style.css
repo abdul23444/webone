@@ -1,0 +1,97 @@
+*{ margin: 0px;padding: 0px; box-sizing: border-box;}
+.container{ position: fixed;}
+.container{ width: 100%; height: 80px;  line-height: 40px;background-color: aliceblue; z-index: 2; }
+.row{ display: flex; max-width: 90%; margin: auto; justify-content: space-between;}
+.none{ display: flex;}
+.logo{ width: 150px;height: 40px; position: relative; top: 13px;  animation-duration: 2s; animation-name: logo;}
+
+@keyframes logo {
+    from {transform: translateX(-200px);}  
+    to{ transition: translate(0px);}
+}
+
+
+
+ul{ list-style: none; display: flex; }
+.none ul li{ padding: 20px; font-size: 18px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; transition-duration:2s ;}
+a{ text-decoration: none; color: black;}
+.none ul li:hover{ background-color: rgba(255, 0, 0, 0.795);}
+.none button{ border: 4px solid rgb(255, 0, 0); background-color: aliceblue;  border-radius: 100px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;letter-spacing: 4px;height: 50px; width: 150px; margin: 15px;}
+.none button:hover{ background-color: rgb(255, 0, 0); color: aliceblue; transition: background-color 3s;}   
+ 
+
+.box{    width: 740px; height: 500px;padding: 20px; position: absolute; top:180px;left: 50px; line-height: 80px;}
+.box h2{ font-size: 40px; color: rgb(255, 56, 56);}
+.box h1{ font-size: 70px; }
+.box p{ font-size: 20px;}
+.box button{ background-color: red; padding: 15px 50px; border:none; border-radius: 100px; color: aliceblue; font-family: Lucida ; margin-top: 20px;}
+.para,.para1{line-height: 30px;}
+.image-man{ position: relative;left: 850px; top: 45px; width: 600px;height: 750px;}
+.img1{ background-color: rgb(108, 83, 0); width: 90px;height: 90px; border-radius: 10px; position: absolute; top: 100px; right: 600px;}
+.img1 img{ height: 50px; margin: 19px 19px; }
+.img2{ background-color: rgb(24, 0, 134); width: 90px;height: 90px; border-radius: 10px; position: absolute; top: 400px; right: 120px;}
+.img2 img{ height: 50px; margin: 19px 19px; }
+.img3{ background-color: rgb(161, 161, 161); width: 90px;height: 90px; border-radius: 10px; position: absolute; top: 600px; right: 520px;}
+.img3 img{ height: 50px; margin: 19px 19px; }
+.card{ display: flex;}
+.card1 img{ width: 80px;height: 80px; margin: 20px;}
+.card1{  width: 33%; height: 300px; text-align: center; line-height: 35px; padding: 20px; position: relative; top: 120px;}
+.ring{ position: absolute; top: 875px; right: 190px;}
+.ring1{ position: absolute; top: 875px; right: 693px;}
+.ring2{ position: absolute; top: 875px; left: 177px;}
+.line{ position: absolute; top:1230px; left: 50px; z-index: 1; }
+.man-image{ position: relative; top: 230px; left: 40px;height: 650px;}
+#box{ width: 250px; height: 100px;background-color:antiquewhite; position: absolute; top: 1350px; left: -40px; z-index: 1; border-radius: 100px; }
+#box h1{ color: rgb(0, 255, 72); position: relative; top: 20px; left: 50px; font-size: 50px;}
+#box h2{ position: relative; left: 130px; top: -40px; font-size: 30px;}
+
+#box1{ width: 250px; height: 100px;background-color:antiquewhite; position: absolute; top: 1760px; left: 460px; z-index: 1; border-radius: 100px; }
+#box1 h1{ color: rgb(0, 255, 72); position: relative; top: 20px; left: 40px; font-size: 50px;}
+#box1 h2{ position: relative; left: 120px; top: -40px; font-size: 30px;}
+
+.box1{    width: 740px; height: 500px;padding: 20px; position: absolute; top:1385px;left: 740px; line-height: 70px;}
+.box1 h2{ font-size: 30px; color: rgb(255, 56, 56);}
+.box1 h1{ font-size: 60px; }
+.box1 p{ font-size: 15px;}
+.box1 button{ background-color: red; padding: 15px 50px; border:none; border-radius: 100px; color: aliceblue; font-family: Lucida ; margin-top: 20px;}
+#line1{ position: relative; top: 150px; left: 500px;}
+#line2{ position: relative; top: 550px;right: 850px;}
+
+.middle{  width: 800px;height: 300px; text-align: center; position: relative; top: 380px; left: 350px;}
+.middle h1{ font-size: 30px; color: red;}
+.middle h2{ font-size: 70px;}
+.middle p{ font-size: 20px; line-height: 30px;}
+.maintenaince{ width: 90%; height: 1000px; margin: auto; position: relative; top: 300px;}
+.box12{ width: 400px; height: 250px; border-radius: 30px; position: relative; top: -300px; left: 490px; border: 20px solid rgb(236, 236, 236);}
+.box13{ width: 400px; height: 550px; border-radius: 30px; position: relative;  left: -403px;border: 20px solid rgb(236, 236, 236);}
+.box14{ width: 400px; height: 350px; border-radius: 30px; position: relative; top: -200px; left: 160px;border: 20px solid rgb(236, 236, 236);}
+.box15{ width: 400px; height: 250px; border-radius: 30px; position: relative; top: -220px; border: 20px solid rgb(236, 236, 236);}
+.box16{ width: 400px; height: 550px; border-radius: 30px; position: relative;  left: 90px; top: -220px;border: 20px solid rgb(236, 236, 236);}
+.box17{ width: 400px; height: 550px; border-radius: 30px; position: relative;  left: 160px; top: -130px; border: 20px solid rgb(236, 236, 236);}
+#scratch{ width: 200px; position: relative; top: 180px; left: 1200px; z-index: -1;}
+
+.row1{ display: flex; justify-content: space-between; }
+.container1{ margin: auto; width: 90%;}
+.image-wright img{ margin-top: 220px; height: auto;}
+.content-wright h2{  font-size: 40px; color: red;}
+.content-wright h1{  font-size: 60px;}
+.content-wright p{  font-size: 20px;}
+.content-wright{position: relative;top:200px}
+.data{ position: relative; top: 100px; }
+.data h1{ font-size: 20px;}
+.data .blank-line{ background-color: rgb(203, 203, 203);  width:800px;height: 10px; border-radius: 100px; margin-bottom: 50px;}
+.data .red-line{ background-color: rgb(247, 1, 1);  width:85%;height: 10px; z-index: 2; border-top-left-radius:100px;border-bottom-left-radius:100px;}
+.data .green-line{ background-color: rgb(30, 255, 0);  width:95%;height: 10px; z-index: 2; border-top-left-radius:100px;border-bottom-left-radius:100px;}
+.data .blue-line{ background-color: rgb(8, 0, 255);  width:75%;height: 10px; z-index: 2; border-top-left-radius:100px;border-bottom-left-radius:100px;}
+.data #span1{ color: red; margin-left: 500px; font-size: 30px;}
+.data #span2{ color: rgb(18, 145, 4); margin-left: 600px;font-size: 30px;}
+.data #span3{ color: rgb(0, 21, 255); margin-left: 500px;font-size: 30px;}
+.row2{ text-align: center; width: 50%; margin: auto;}
+.row2 h2{ color: red; font-size: 30px;}
+.row2 h1{  font-size: 70px;}
+.row2 p{  font-size: 22px;}
+.box-in{ display: flex;}
+.box-in img{width: 120px;height: 120px;}
+.box-inner{ background-color: rgb(238, 238, 238); width: 50%; height: 300px; margin: 20px;}
+.child h1{ font-size: 50px;color: red;}
+.child h2{ font-size: 40px;}
